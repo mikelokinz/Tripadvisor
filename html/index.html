@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tripadvisor</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <!-- Left -->
+      <div class="header_left">
+        <img class="header_img" src="../assets/tripadvs.png" alt="tripadvs.png" />
+        <h1>Tripadvisor</h1>
+      </div>
+
+      <!-- Middle -->
+      <div class="header_middle">
+        <button class="header_mid_btn">Discover</button>
+        <button class="header_mid_btn">Trips</button>
+        <button class="header_mid_btn">Reviews</button>
+        <a class="header_mid_link">
+          Forums
+          <div class="header_mid_lnkline"></div>
+        </a>
+      </div>
+
+      <!-- Right -->
+      <div class="header_right">
+        <button class="header_right_langbtn">
+          <div>
+            <h4>🌐</h4>
+          </div>
+          <div>|</div>
+          <div style="margin-top: 2px">ENG</div>
+        </button>
+        <button class="header_right_sgnbtn">Sign in</button>
+      </div>
+    </div>
+    <!-- Stream block -->
+    <!-- Stream toggles block -->
+    <div class="stream_blc">
+      <!-- Hidden Inputs First -->
+      <input type="radio" name="stream2" id="searchall" checked hidden>
+      <input type="radio" name="stream2" id="hotels" hidden>
+      <input type="radio" name="stream2" id="things" hidden>
+      <input type="radio" name="stream2" id="restaurants" hidden>
+      <input type="radio" name="stream2" id="flights" hidden>
+      <input type="radio" name="stream2" id="holiday" hidden>
+
+      <!-- Stream content + toggle buttons in visual order -->
+      <div class="stream_visual">
+        <div class="stream">
+          <h1 class="where">Where to?</h1>
+          <h1 class="stay">Stay somewhere great</h1>
+          <h1 class="fun">Do something fun</h1>
+          <h1 class="eat">Find places to eat</h1>
+          <h1 class="flight">Find the best flight</h1>
+          <h1 class="rent">Explore places to rent</h1>
+        </div>
+
+        <div class="stream2">
+          <label for="searchall" class="stream2_toggle">
+            <i class="fa-solid fa-house"></i>
+            <span>Search all</span>
+            <div class="underline"></div>
+          </label>
+
+          <label for="hotels" class="stream2_toggle">
+            <i class="fa-solid fa-bed"></i>
+            <span>Hotels</span>
+            <div class="underline"></div>
+          </label>
+
+          <label for="things" class="stream2_toggle">
+            <i class="fa-solid fa-camera"></i>
+            <span>Things to do</span>
+            <div class="underline"></div>
+          </label>
+
+          <label for="restaurants" class="stream2_toggle">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Restaurants</span>
+            <div class="underline"></div>
+          </label>
+
+          <label for="flights" class="stream2_toggle">
+            <i class="fa-solid fa-plane-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+            <span>Flights</span>
+            <div class="underline"></div>
+          </label>
+
+          <label for="holiday" class="stream2_toggle">
+            <i class="fa-solid fa-mountain-sun"></i>
+            <span>Holiday Homes</span>
+            <div class="underline"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="searchbar">
+
+      <div class="searchbar_fcs">
+        <div class="searchbar_container">
+          <i class="fa-solid fa-magnifying-glass" style="color: #000000; padding-top: 5px; padding-bottom: 5px;"></i>
+          <input class="searchbar_input" type="text" placeholder="Trip to Tranquilo" />
+          <button class="searchbar_btn">Search</button>
+        </div>
+        <div class="searchbar_line">
+
+
+        </div>
+        <div class="searchbar_cnts_contain">
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/nearby.png" alt="nearby.png">
+            <h4>Nearby</h4>
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/daydreamdrift.jpg" alt="daydreamdrift.jpg">
+            <div>
+              <h4>Parkside Daydream Drift</h4>
+              <h6>USA, California</h6>
+            </div>
+          </div>
+          <div class="searchbar_pops">
+
+            <h5>Popular</h5>
+
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/legendinframes.jpg" alt="legendinframes.jpg">
+            <div>
+              <h4>Legend in the Frames</h4>
+              <h6>USA, Washington D.C.</h6>
+            </div>
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/overwater.jpg" alt="overwater.jpg">
+            <div>
+              <h4>Lights Overwater</h4>
+              <h6>China, Shanghai</h6>
+            </div>
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/scotland.jpg" alt="scotland.jpg">
+            <div>
+              <h4>Golden Highland Glow</h4>
+              <h6>UK, Scotland</h6>
+            </div>
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/silence.jpg" alt="silence.jpg">
+            <div>
+              <h4>Stargaze and Silence</h4>
+              <h6>India, Ladakh</h6>
+            </div>
+          </div>
+          <div class="searchbar_cnts">
+            <img class="searchbar_cnts_img" src="../assets/symmetryart.jpg" alt="symmetryart.jpg">
+            <div>
+              <h4>Symmetry Meets Art</h4>
+              <h6>UAE, Dubai</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bookbox">
+      <div class="bookbox_img">
+        <img class="bookbox_img1" src="../assets/sunset.jpg" alt="">
+        <button class="bookbox_tag" onclick="window.location.href = 'https://www.instagram.com/mikelokinz/'; ">
+          @mikelokinz
+        </button>
+      </div>
+      <div class="bookbox_info">
+        <h1>Book the best part of your trip</h1>
+        <h5>Browse our selection of the best hotels</h5>
+        <button>Find things to do</button>
+      </div>
+
+    </div>
+
+    <div class="intrest">
+      <h2>Find things to do by interest</h2>
+      <h5>Whatever you're into, we’ve got it</h5>
+    </div>
+
+    <div class="intrest_imgs">
+      <div class="intrest_imgs_div">
+        <img class="intrest_imgs_img" src="../assets/outdoor.jpg" alt="outdoor.jpg">
+        <h2>Outdoor</h2>
+      </div>
+      <div class="intrest_imgs_div">
+        <img class="intrest_imgs_img" src="../assets/food.jpg" alt="food.jpg">
+        <h2>Food</h2>
+      </div>
+      <div class="intrest_imgs_div">
+        <img class="intrest_imgs_img" src="../assets/culture.jpg" alt="culture.jpg">
+        <h2>Culture</h2>
+      </div>
+      <div class="intrest_imgs_div">
+        <img class="intrest_imgs_img" src="../assets/water.jpg" alt="water.jpg">
+        <h2>Water</h2>
+      </div>
+    </div>
+
+    <div class="ad">
+      <img class="ad_img" src="../assets/ad.jpg" alt="ad.jpg">
+    </div>
+
+    <div class="explore_title">
+      <h2>Explore experiences near Chennai</h2>
+      <h5>Discover unique activities</h5>
+    </div>
+    <div class="explore_contain">
+      <div class="explore_contain_div">
+        <img class="explore_contain_img" src="../assets/mahabalipuram.jpg" alt="mahabalipuram.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h2>Mahabalipuram tour by tourism ministry</h2>
+        <p>4.5 ⭐⭐⭐⭐ (206)</p>
+        <h4>from ₹1,999 per adult</h4>
+      </div>
+      <div class="explore_contain_div">
+        <img class="explore_contain_img" src="../assets/dosa.jpg" alt="dosa.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h2>Chennai tour - explore Chennai</h2>
+        <p>4.9 ⭐⭐⭐⭐⭐ (1.3k)</p>
+        <h4>from ₹3,999 per adult</h4>
+      </div>
+      <div class="explore_contain_div">
+        <img class="explore_contain_img" src="../assets/indianfood.jpg" alt="indianfood.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h2>South Indian food tour plan</h2>
+        <p>4.3 ⭐⭐⭐⭐ (682)</p>
+        <h4>from ₹6,247 per adult</h4>
+      </div>
+      <div class="explore_contain_div">
+        <img class="explore_contain_img" src="../assets/auroville.jpg" alt="auroville.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h2>Auroville Pondichery Tamil Nadu</h2>
+        <p>5.0 ⭐⭐⭐⭐⭐ (106)</p>
+        <h4>from ₹2,499 per adult</h4>
+      </div>
+
+
+    </div>
+    <div class="ad">
+      <img class="ad_img" src="../assets/ad2.jpg" alt="ad2.jpg">
+    </div>
+
+    <div class="inspire_title">
+      <h2>Inspiration to get you going</h2>
+    </div>
+    <div class="inspire_contain">
+      <div class="inspire_contain_div">
+        <img class="inspire_contain_img" src="../assets/uthadubai.jpg" alt="">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h4>Where to Stargaze</h4>
+      </div>
+      <div class="inspire_contain_div">
+        <img class="inspire_contain_img" src="../assets/parisnyc.jpg" alt="parisnyc.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h4>Load up on ART in Paris, NYC</h4>
+      </div>
+      <div class="inspire_contain_div">
+        <img class="inspire_contain_img" src="../assets/foodtrips.jpg" alt="foodtrips.jpg">
+        <div><i class="fa-solid fa-heart" style="color: #ffffff;"></i></div>
+        <h4>Unbelievable food trips</h4>
+      </div>
+
+    </div>
+
+    <div class="iconic_title">
+      <h2>Iconic places you need to see</h2>
+    </div>
+
+    <div class="iconic_contain">
+      <div class="iconic_contain_div">
+        <img class="iconic_contain_img" src="../assets/rome.jpg" alt="rome.jpg">
+        <h2>Rome, Italy</h2>
+      </div>
+      <div class="iconic_contain_div">
+        <img class="iconic_contain_img" src="../assets/paris.jpg" alt="paris.jpg">
+        <h2>Paris, France</h2>
+      </div>
+      <div class="iconic_contain_div">
+        <img class="iconic_contain_img" src="../assets/lasvegas.jpg" alt="lasvegas.jpg">
+        <h2>Las Vegas, NV</h2>
+      </div>
+      <div class="iconic_contain_div">
+        <img class="iconic_contain_img" src="../assets/reykajavik.jpg" alt="reykajavik.jpg">
+        <h2>Reykjavik, Iceland</h2>
+      </div>
+
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-section">
+          <h4>About Tripadvisor</h4>
+          <a href="">About Us</a>
+          <a href="">Privacy and Policies</a>
+          <a href="">Trust & Safety</a>
+          <a href="">Contact us</a>
+          <a href="">Blog</a>
+        </div>
+
+
+        <div class="footer-section">
+          <h4>Do Business With Us</h4>
+          <a href="">Owners & Memberships
+          <a href="">iPhone App</a>
+          <a href="">Android App</a>
+        </div>
+
+        <div class="footer-section">
+          <h4>Tripadvisor Sites</h4>
+          <p>Book tours and attraction tickets on <a href="#">Viator</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-left">
+          <img src="../assets/tripadvs.png" alt="Tripadvisor Logo" class="footer-logo" />
+          <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+          <div class="footer-links">
+            <a href="">Terms of Use</a>
+            <a href="">Privacy and Cookies Statement</a>
+            <a href="">Cookie consent</a>
+            <a href="">Site Map</a>
+            <a href="">Contact us</a>
+          </div>
+          <p class="footer-note">
+            Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites
+          </p>
+        </div>
+
+
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/Tripadvisor/"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+            <a href="https://www.facebook.com/Tripadvisor/"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></i></a>
+            <a href="https://www.instagram.com/tripadvisor/"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            <a href="https://www.youtube.com/TripAdvisor"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>

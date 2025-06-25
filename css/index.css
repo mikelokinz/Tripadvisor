@@ -757,51 +757,53 @@ body {
 
     .stream2_toggle .underline {
         display: none;
-        
+
     }
 
     /* Searchbar */
-.searchbar {
+    .searchbar {
 
-    flex-direction: column;
-    width: 100%;
-    padding: 0 15px;
-    align-items: center;       
-    justify-content: center;  
-}
+        flex-direction: column;
+        width: 100%;
+        padding: 0 15px;
+        align-items: center;
+        justify-content: center;
+    }
 
-.searchbar_fcs{
+    .searchbar_fcs {
         margin-left: 0;
-}
-.searchbar_fcs:focus-within {
-    display: inline-block;
-    position: relative;
-    flex-direction: column;
-    align-items: flex-start;
-    height: fit-content;
-    width: 75%;
-    border-radius: 20px;
-    padding: 10px;
+    }
+
+    .searchbar_fcs:focus-within {
+        display: inline-block;
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        height: fit-content;
+        width: 75%;
+        border-radius: 20px;
+        padding: 10px;
 
 
-    /* Visuals */
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-                rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
+        /* Visuals */
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+            rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
 
     .searchbar_container {
         display: flex;
         width: 100%;
-        padding: 15px;
+        height: fit-content;
+        padding: 10px;
         height: auto;
         gap: 10px;
-        box-shadow: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         align-items: center;
     }
 
     .searchbar_input {
         width: 100%;
-        height: 45px;
+        height: 100%;
         font-size: 16px;
         align-items: center;
     }
@@ -858,10 +860,11 @@ body {
         padding: 10px 16px;
     }
 
-    .ad_img{
+    .ad_img {
         width: 300px;
         height: 37px;
     }
+
     /* Interest Section */
     .intrest_imgs {
         flex-direction: column;

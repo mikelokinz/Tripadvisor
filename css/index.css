@@ -757,7 +757,7 @@ body {
 
     .stream2_toggle .underline {
         display: none;
-        /* remove underline animation */
+        
     }
 
     /* Searchbar */
@@ -766,12 +766,12 @@ body {
     flex-direction: column;
     width: 100%;
     padding: 0 15px;
-    align-items: center;       /* center cross-axis (horizontal) */
-    justify-content: center;   /* center main-axis (vertical if column) */
+    align-items: center;       
+    justify-content: center;  
 }
 
 .searchbar_fcs{
-        margin-right: 0;
+        margin-left: 0;
 }
 .searchbar_fcs:focus-within {
     display: inline-block;

@@ -20,4 +20,4 @@ All components are aligned perfectly with vertical flow and smooth navigation, d
 🔗 Live Preview / Demo: https://mikelokinz.github.io/Tripadvisor/html/
 📁 Code: https://github.com/mikelokinz/Tripadvisor.git
 
-📌 #HTML #CSS #Frontend #CloneProject #ResponsiveDesign #TravelApp #TripAdvisorClone
+📌 #HTML #CSS #Frontend #CloneProject #ResponsiveDesign #TravelApp #TripAdvisorClone #errormakesclever

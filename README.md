@@ -17,7 +17,20 @@ The clone includes:
 
 All components are aligned perfectly with vertical flow and smooth navigation, delivering an excellent user experience on both desktop and mobile screens.
 
+
+
+
+
+
+
 🔗 Live Preview / Demo: https://mikelokinz.github.io/Tripadvisor/html/loading.html
+
+
+
+
+
+
+
 📁 Code: https://github.com/mikelokinz/Tripadvisor.git
 
 📌 #HTML #CSS #Frontend #CloneProject #ResponsiveDesign #TravelApp #TripAdvisorClone #errormakesclever

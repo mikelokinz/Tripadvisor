@@ -169,7 +169,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Show based on radio input selection */
 #searchall:checked~.stream_visual .where {
     display: block;
 }
@@ -202,7 +201,6 @@ body {
 
 }
 
-/* Underline animation */
 .stream2_toggle {
     position: relative;
     cursor: pointer;

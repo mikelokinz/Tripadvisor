@@ -34,3 +34,9 @@ All components are aligned perfectly with vertical flow and smooth navigation, d
 📁 Code: https://github.com/mikelokinz/Tripadvisor.git
 
 📌 #HTML #CSS #Frontend #CloneProject #ResponsiveDesign #TravelApp #TripAdvisorClone #errormakesclever
+
+
+
+
+The capital of India is Delhi and it's GDP is 1498.87
+The capital of India is Delhi and it's GDP is 1498.87
